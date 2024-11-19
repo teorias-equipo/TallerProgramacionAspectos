@@ -22,4 +22,44 @@ public class Nota {
     private Double porcentaje;
     private Integer estudiante_id;
 
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getObservacion() {
+        return observacion;
+    }
+
+    public void setObservacion(String observacion) {
+        this.observacion = observacion;
+    }
+
+    public Double getValor() {
+        return valor;
+    }
+
+    public void setValor(Double valor) {
+        this.valor = valor;
+    }
+
+    public Double getPorcentaje() {
+        return porcentaje;
+    }
+
+    public void setPorcentaje(Double porcentaje) {
+        this.porcentaje = porcentaje;
+    }
+
+    public Integer getEstudiante_id() {
+        return estudiante_id;
+    }
+
+    public void setEstudiante_id(Integer estudiante_id) {
+        this.estudiante_id = estudiante_id;
+    }
+
 }
